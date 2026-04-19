@@ -57,14 +57,15 @@ function renderBack(c) {
     <h2>${escapeHtml(c.drug)}</h2>
     <div class="sub">${escapeHtml(c.indication)}</div>
 
-    <div class="field">
-      <div class="field-label">Adult</div>
-      <div class="field-value">${escapeHtml(c.adult_dose || '—')}</div>
-    </div>
-
-    <div class="field">
-      <div class="field-label">Peds</div>
-      <div class="field-value">${escapeHtml(c.peds_dose || '—')}</div>
+    <div class="field dose-cols">
+      <div>
+        <div class="field-label">Adult</div>
+        <div class="field-value">${escapeHtml(c.adult_dose || '—')}</div>
+      </div>
+      <div>
+        <div class="field-label">Peds</div>
+        <div class="field-value">${escapeHtml(c.peds_dose || '—')}</div>
+      </div>
     </div>
 
     <div class="field">
