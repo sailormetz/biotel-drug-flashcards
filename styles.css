@@ -154,28 +154,6 @@ body {
   line-height: 1.45;
 }
 
-.dose-list {
-  list-style: disc;
-  margin: 0;
-  padding-left: 20px;
-}
-
-.dose-list li {
-  font-size: 15px;
-  line-height: 1.45;
-  margin-bottom: 6px;
-}
-
-.dose-tag {
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 700;
-  color: var(--muted);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-right: 6px;
-}
-
 .contra {
   background: rgba(251, 113, 133, 0.08);
   border-left: 3px solid var(--danger);
