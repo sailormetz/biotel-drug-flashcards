@@ -1,0 +1,941 @@
+[
+  {
+    "id": "acetaminophen",
+    "name": "Acetaminophen",
+    "indications": [
+      {
+        "indication": "Pain Management (All Ages)",
+        "adult_dose": "650–1000 mg",
+        "peds_dose": "15 mg/kg (Max: 650 mg)",
+        "route": "PO only",
+        "contraindications": [
+          "Unable to swallow or maintain airway",
+          "Active vomiting",
+          "Took acetaminophen or combination product (e.g., Norco, Percocet, Vicodin, cold medicine) in last 6 hours",
+          "Severe jaundice or signs of liver failure"
+        ],
+        "when_to_give": "Administer to all acutely painful conditions as the first-line oral analgesic. Given at the start of pain management before escalation to opioids is considered.",
+        "page_numbers": [
+          80,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adenosine",
+    "name": "Adenosine",
+    "indications": [
+      {
+        "indication": "Tachycardia – Stable (All Ages)",
+        "adult_dose": "12 mg rapid IV push; may repeat ONCE at 12 mg",
+        "peds_dose": "0.1 mg/kg rapid IV push (Max: 6 mg); may repeat ONCE at 0.2 mg/kg (Max: 12 mg)",
+        "route": "IV (rapid push — must be given as fast bolus followed by saline flush)",
+        "contraindications": [],
+        "when_to_give": "For hemodynamically stable supraventricular tachycardia (SVT) that fails vagal maneuvers. The ECG must show a narrow-complex, regular rhythm consistent with SVT before adenosine is used.",
+        "page_numbers": [
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "id": "albuterol",
+    "name": "Albuterol",
+    "indications": [
+      {
+        "indication": "Allergic Reaction (Non-Anaphylaxis)",
+        "adult_dose": "2.5 mg combined with Ipratropium 0.5 mg, Nebulized; may repeat twice as needed",
+        "peds_dose": "2.5 mg combined with Ipratropium 0.5 mg, Nebulized; may repeat twice as needed",
+        "route": "Nebulized (combined Albuterol 2.5 mg/Ipratropium 0.5 mg unit-dose)",
+        "contraindications": [],
+        "when_to_give": "Standing-order treatment for allergic reactions **without** anaphylactic features (no hypotension, no severe signs such as stridor/hypoxia/airway swelling, and symptoms not spanning ≥2 body systems), when wheezing or dyspnea is present. Given alongside Diphenhydramine for itching/rash. Not used for anaphylaxis — those patients go to the epinephrine branch.",
+        "page_numbers": [
+          30
+        ]
+      },
+      {
+        "indication": "Hyperkalemia",
+        "adult_dose": "10 mg Nebulized (equivalent to four 2.5 mg treatments)",
+        "peds_dose": "10 mg Nebulized",
+        "route": "Nebulized",
+        "contraindications": [
+          "Significant tachycardia",
+          "Likely ischemic chest pain"
+        ],
+        "when_to_give": "Given in conjunction with calcium chloride for ECG changes suggesting hyperkalemia. Albuterol drives potassium into cells as a temporizing measure.",
+        "page_numbers": [
+          64
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Adult",
+        "adult_dose": "5 mg Nebulized (with or without Ipratropium), every 10 min, up to 3 doses",
+        "peds_dose": "N/A — see Respiratory Distress (Pediatric)",
+        "route": "Nebulized",
+        "contraindications": [],
+        "when_to_give": "For mild-to-moderate asthma/COPD exacerbation with wheezing. Repeated every 10 minutes as needed for up to three total doses.",
+        "page_numbers": [
+          84,
+          85
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Pediatric",
+        "adult_dose": "N/A — see Respiratory Distress (Adult)",
+        "peds_dose": "5 mg Nebulized (with or without Ipratropium), every 10 min, up to 3 doses",
+        "route": "Nebulized",
+        "contraindications": [],
+        "when_to_give": "For mild-to-moderate pediatric asthma or reactive airway disease with wheezing. Not first-line for children <2 y/o whose wheezing is more likely bronchiolitis.",
+        "page_numbers": [
+          86,
+          87
+        ]
+      },
+      {
+        "indication": "Toxic Chemical Exposure",
+        "adult_dose": "5 mg Nebulized (with or without Ipratropium)",
+        "peds_dose": "5 mg Nebulized (with or without Ipratropium)",
+        "route": "Nebulized",
+        "contraindications": [],
+        "when_to_give": "Consider for bronchospasm from respiratory irritant chemical exposure (e.g., ammonia, chlorine, phosgene).",
+        "page_numbers": [
+          108,
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amiodarone",
+    "name": "Amiodarone",
+    "indications": [
+      {
+        "indication": "Cardiac Arrest – General (Shockable Rhythms)",
+        "adult_dose": "300 mg IV/IO after 2nd shock; then 150 mg (half dose) after 3rd shock",
+        "peds_dose": "5 mg/kg IV/IO (Max: 300 mg) after 2nd shock; then 2.5 mg/kg IV/IO (Max: 150 mg) after 3rd shock",
+        "route": "IV/IO",
+        "contraindications": [
+          "Do NOT administer if atrial fibrillation with Wolff-Parkinson-White (WPW) syndrome is suspected (irregular, very high-rate wide-complex tachycardia with variable QRS morphology)"
+        ],
+        "when_to_give": "For persistent ventricular fibrillation (VF) or pulseless ventricular tachycardia (pVT) after the second defibrillation shock has failed. Given during ongoing resuscitation.",
+        "page_numbers": [
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "indication": "Tachycardia – Unstable (Adult)",
+        "adult_dose": "150 mg IV/IO over 10 min; may repeat ONCE",
+        "peds_dose": "N/A — see Tachycardia – Unstable (Pediatric)",
+        "route": "IV/IO",
+        "contraindications": [
+          "Do NOT administer if WPW-related wide-complex tachycardia is suspected"
+        ],
+        "when_to_give": "For hemodynamically unstable wide-complex tachycardia with confirmed pulse and regular rhythm consistent with ventricular tachycardia (VT). Given alongside or after synchronized cardioversion attempts.",
+        "page_numbers": [
+          101,
+          102
+        ]
+      },
+      {
+        "indication": "Tachycardia – Unstable (Pediatric)",
+        "adult_dose": "N/A — see Tachycardia – Unstable (Adult)",
+        "peds_dose": "5 mg/kg IV/IO over 10 min (Max: 150 mg); may repeat ONCE",
+        "route": "IV/IO",
+        "contraindications": [
+          "Do NOT administer if WPW-related wide-complex tachycardia is suspected"
+        ],
+        "when_to_give": "For hemodynamically unstable pediatric wide-complex tachycardia with pulse consistent with VT. Given alongside or after synchronized cardioversion attempts.",
+        "page_numbers": [
+          103,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aspirin",
+    "name": "Aspirin",
+    "indications": [
+      {
+        "indication": "Chest Pain",
+        "adult_dose": "324 mg (chew and swallow)",
+        "peds_dose": "Not specified (Chest Pain CPG is adult-focused: ≥14 y/o)",
+        "route": "PO (chewed)",
+        "contraindications": [],
+        "when_to_give": "Given to all chest pain patients as initial treatment. Administered early, before other agents, as soon as ischemic cardiac etiology is possible.",
+        "page_numbers": [
+          47,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atropine",
+    "name": "Atropine",
+    "indications": [
+      {
+        "indication": "Bradycardia – Adult",
+        "adult_dose": "1 mg IV/IO; may repeat every 3–5 min (Max total: 3 mg)",
+        "peds_dose": "N/A — see Bradycardia (Pediatric)",
+        "route": "IV/IO",
+        "contraindications": [
+          "May not be effective for 2nd- or 3rd-degree AV heart blocks"
+        ],
+        "when_to_give": "Given to hemodynamically unstable adult bradycardia patients while preparing for transcutaneous pacing. Repeated doses may be given while pacing is being set up.",
+        "page_numbers": [
+          34
+        ]
+      },
+      {
+        "indication": "Bradycardia – Pediatric",
+        "adult_dose": "N/A — see Bradycardia (Adult)",
+        "peds_dose": "0.02 mg/kg IV/IO (Max single dose: 0.5 mg); may repeat ONCE if effective",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "For hemodynamically significant pediatric bradycardia that does not respond to Epinephrine, or as an adjunct. May be repeated one time if an initial dose shows effect.",
+        "page_numbers": [
+          35
+        ]
+      },
+      {
+        "indication": "Toxic Chemical Exposure (Nerve Agent / Organophosphate Toxicity)",
+        "adult_dose": "2 mg IV/IO/IM every 3–5 min until DUMBBELS signs/secretions improve (up to 3 total doses if using autoinjector; repeat as needed if using standalone Atropine)",
+        "peds_dose": "0.05 mg/kg IV/IO/IM per dose (Max single dose: 2 mg) every 3–5 min until DUMBBELS symptoms improve",
+        "route": "IV/IO/IM (also available as combined Pralidoxime/Atropine autoinjector if stocked)",
+        "contraindications": [],
+        "when_to_give": "Given for cholinergic toxidrome (DUMBBELS) from nerve agent or organophosphate pesticide exposure. Titrated to reduction in secretions and bronchospasm, not to heart rate. Pralidoxime/Atropine autoinjector preferred if available.",
+        "page_numbers": [
+          108,
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "id": "calcium_chloride",
+    "name": "Calcium Chloride",
+    "indications": [
+      {
+        "indication": "Cardiac Arrest – General",
+        "adult_dose": "1 g IV/IO",
+        "peds_dose": "20 mg/kg IV/IO (Max: 1 g)",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "Considered as a reversible cause treatment for hyperkalemia-related cardiac arrest (one of the \"H's and T's\"). Given during resuscitation when hyperkalemia is suspected.",
+        "page_numbers": [
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "indication": "Drug Overdose / Drug Intoxication",
+        "adult_dose": "1 g IV/IO over 5–10 min",
+        "peds_dose": "20 mg/kg IV/IO (Max: 1 g)",
+        "route": "IV/IO (slow — over 5–10 min)",
+        "contraindications": [],
+        "when_to_give": "For suspected calcium channel blocker overdose presenting with hemodynamic instability. Administered slowly to counteract the calcium-blocking effects of the drug.",
+        "page_numbers": [
+          55
+        ]
+      },
+      {
+        "indication": "Hyperkalemia",
+        "adult_dose": "1 g slow IV/IO over 5–10 min; may give half dose if ECG not improved",
+        "peds_dose": "20 mg/kg slow IV/IO (Max: 1 g); may give half dose if ECG not improved",
+        "route": "IV/IO (slow infusion)",
+        "contraindications": [],
+        "when_to_give": "For ECG changes consistent with hyperkalemia (peaked T waves, widened QRS, sine wave pattern). First-line agent to stabilize the cardiac membrane before potassium-lowering measures.",
+        "page_numbers": [
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dexamethasone",
+    "name": "Dexamethasone",
+    "indications": [
+      {
+        "indication": "Respiratory Distress – Adult",
+        "adult_dose": "10 mg IV/IM/PO",
+        "peds_dose": "N/A — see Respiratory Distress (Pediatric)",
+        "route": "IV, IM, or PO",
+        "contraindications": [],
+        "when_to_give": "For moderate-to-severe adult asthma/COPD exacerbation, given alongside nebulized bronchodilators. Reduces airway inflammation.",
+        "page_numbers": [
+          84,
+          85
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Pediatric",
+        "adult_dose": "N/A — see Respiratory Distress (Adult)",
+        "peds_dose": "0.5 mg/kg IV/IM (Max: 10 mg)",
+        "route": "IV or IM",
+        "contraindications": [],
+        "when_to_give": "For moderate-to-severe pediatric asthma or reactive airway disease, given alongside nebulized bronchodilators to reduce airway inflammation.",
+        "page_numbers": [
+          86,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dextrose_10_d10w",
+    "name": "Dextrose 10% (D10W)",
+    "indications": [
+      {
+        "indication": "Diabetic Emergency",
+        "adult_dose": "125 mL IV/IO over 10 min; may repeat same dose if POC glucose not improved at 10 min",
+        "peds_dose": "4 mL/kg IV/IO (Max: 125 mL); may repeat same dose if POC glucose not improved at 10 min",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "For hypoglycemia with altered mental status or inability to protect the airway (i.e., patient cannot take oral glucose). First-line IV treatment for low blood sugar.",
+        "page_numbers": [
+          54
+        ]
+      },
+      {
+        "indication": "Newborn Care",
+        "adult_dose": "N/A",
+        "peds_dose": "2 mL/kg IV/IO",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "For a newborn requiring resuscitation who also has a POC glucose <50 g/dL. Addresses neonatal hypoglycemia concurrent with resuscitative efforts.",
+        "page_numbers": [
+          70,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "diphenhydramine",
+    "name": "Diphenhydramine",
+    "indications": [
+      {
+        "indication": "Allergic Reaction (Non-Anaphylaxis)",
+        "adult_dose": "25 mg IV/IM",
+        "peds_dose": "1 mg/kg IV/IM (Max: 25 mg)",
+        "route": "IV or IM",
+        "contraindications": [],
+        "when_to_give": "For itching, rash, hives, or swelling in a non-anaphylactic allergic reaction (no hypotension, no severe signs such as stridor/hypoxia/airway swelling, and symptoms not spanning ≥2 body systems). Not given on the anaphylaxis branch.",
+        "page_numbers": [
+          30
+        ]
+      },
+      {
+        "indication": "Drug Overdose / Drug Intoxication",
+        "adult_dose": "50 mg IV/IO/IM",
+        "peds_dose": "1 mg/kg IV/IO/IM (Max: 50 mg)",
+        "route": "IV/IO/IM",
+        "contraindications": [],
+        "when_to_give": "For acute dystonic reaction or torticollis caused by antipsychotic medications. Diphenhydramine is the antidote for extrapyramidal side effects.",
+        "page_numbers": [
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "id": "epinephrine",
+    "name": "Epinephrine",
+    "indications": [
+      {
+        "indication": "Allergic Reaction / Anaphylaxis — Epinephrine (1 mg/mL)",
+        "adult_dose": "0.3 mg IM if ≥25 kg; 0.15 mg IM if <25 kg; anterolateral thigh; may repeat ONCE at same dose if no improvement at 5 min",
+        "peds_dose": "0.15 mg IM if <25 kg; 0.3 mg IM if ≥25 kg; anterolateral thigh; may repeat ONCE at same dose if no improvement at 5 min",
+        "route": "IM (anterolateral thigh preferred); autoinjector acceptable",
+        "contraindications": [],
+        "when_to_give": "First-line and highest priority treatment for anaphylaxis. Given immediately upon recognition of anaphylactic reaction (hypotension, airway compromise, or systemic allergic symptoms after exposure).",
+        "page_numbers": [
+          30
+        ]
+      },
+      {
+        "indication": "Bradycardia – Adult (Pacing Failure) — Push Dose Epinephrine (0.1 mg/mL → diluted to 10 mcg/mL)",
+        "adult_dose": "Per Push Dose Epinephrine Procedure: 20 mcg (2 mL of 10 mcg/mL) IV/IO every 2–5 min",
+        "peds_dose": "N/A — see Bradycardia (Pediatric)",
+        "route": "IV/IO push",
+        "contraindications": [
+          "Cardiogenic shock from inferior STEMI (may worsen)"
+        ],
+        "when_to_give": "If transcutaneous pacing fails in adult bradycardia, or as a bridge while pacing is being established. Used to maintain perfusion pressure. Also available as an epinephrine infusion: 2–10 mcg/min IV/IO.",
+        "page_numbers": [
+          34
+        ]
+      },
+      {
+        "indication": "Bradycardia – Pediatric — Epinephrine (0.1 mg/mL)",
+        "adult_dose": "N/A — see Bradycardia (Adult)",
+        "peds_dose": "0.01 mg/kg IV/IO (Max: 1 mg); 0.1 mg/mL formulation; repeat every 3–5 min if bradycardia persists",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "First-line agent for hemodynamically significant pediatric bradycardia. Given repeatedly every 3–5 min while the underlying cause is treated.",
+        "page_numbers": [
+          35
+        ]
+      },
+      {
+        "indication": "Cardiac Arrest – General — Epinephrine (0.1 mg/mL)",
+        "adult_dose": "1 mg IV/IO every 3–5 min (up to 3 doses)",
+        "peds_dose": "0.01 mg/kg IV/IO (Max: 1 mg) every 3–5 min (up to 3 doses)",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "Given throughout resuscitation for all cardiac arrest rhythms. Administered every 3–5 min to maintain coronary perfusion pressure during CPR.",
+        "page_numbers": [
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      {
+        "indication": "Cardiac Arrest – Post-ROSC Care — Push Dose / Infusion",
+        "adult_dose": "Push Dose Epinephrine per procedure (20 mcg IV/IO push), as alternative to or bridge before norepinephrine infusion",
+        "peds_dose": "Push Dose Epinephrine per procedure (1 mcg/kg, Max 20 mcg, IV/IO push)",
+        "route": "IV/IO",
+        "contraindications": [
+          "Cardiogenic shock from inferior STEMI"
+        ],
+        "when_to_give": "If SBP <90 mmHg after ROSC and while preparing norepinephrine infusion, or if norepinephrine is unavailable. Provides rapid pressor support.",
+        "page_numbers": [
+          44,
+          45
+        ]
+      },
+      {
+        "indication": "Newborn Care — Epinephrine (0.1 mg/mL)",
+        "adult_dose": "N/A",
+        "peds_dose": "0.02 mg/kg IV/IO with 5 mL flush; repeat every 3–5 min for persistent HR <60",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "For a newborn with persistent bradycardia (HR <60) after adequate ventilation and chest compressions have been established.",
+        "page_numbers": [
+          70,
+          71
+        ]
+      },
+      {
+        "indication": "Push Dose Epinephrine Procedure — Epinephrine (diluted to 10 mcg/mL)",
+        "adult_dose": "20 mcg (2 mL of 10 mcg/mL) IV/IO push every 2–5 min; flush with 2–3 mL NS after each dose",
+        "peds_dose": "1 mcg/kg (10 mcg/mL) IV/IO push (Max: 20 mcg) every 2–5 min; flush with 1–2 mL NS after each dose",
+        "route": "IV/IO push (NOT a drip)",
+        "contraindications": [
+          "Cardiogenic shock from **inferior STEMI** (ST elevation in II, III, aVF) — may worsen",
+          "Use isotonic fluid boluses per Chest Pain CPG instead"
+        ],
+        "when_to_give": "For shock or hypotension not responding to fluid resuscitation or other first-line treatments, across any protocol. Preparation required: dilute to 10 mcg/mL before use (three preparation methods provided in protocol).",
+        "page_numbers": [
+          82,
+          83
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Adult (Respiratory Failure) — Epinephrine (1 mg/mL)",
+        "adult_dose": "0.3 mg IM",
+        "peds_dose": "N/A — see Respiratory Distress (Pediatric)",
+        "route": "IM",
+        "contraindications": [],
+        "when_to_give": "For adult asthma/COPD patients in respiratory failure (i.e., maximal bronchodilator therapy has failed and the patient is deteriorating). Last pharmacologic escalation before intubation.",
+        "page_numbers": [
+          84,
+          85
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Pediatric (Respiratory Failure) — Epinephrine (1 mg/mL)",
+        "adult_dose": "N/A",
+        "peds_dose": "0.01 mg/kg IM (Max: 0.3 mg); **OR 5 mg Nebulized** for croup/epiglottitis",
+        "route": "IM (respiratory failure); Nebulized (croup/epiglottitis)",
+        "contraindications": [],
+        "when_to_give": "IM: for pediatric respiratory failure from severe asthma after bronchodilators fail. Nebulized: for stridor with signs of croup or epiglottitis (stridor, drooling, gagging).",
+        "page_numbers": [
+          86,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fentanyl",
+    "name": "Fentanyl",
+    "indications": [
+      {
+        "indication": "Chest Pain",
+        "adult_dose": "50 mcg IV/IO/IN; may repeat if inadequate relief after 5–10 min",
+        "peds_dose": "Not listed in Chest Pain CPG (adult protocol)",
+        "route": "IV/IO/IN",
+        "contraindications": [
+          "SBP <100 mmHg",
+          "Given only after nitroglycerin and if continued pain persists"
+        ],
+        "when_to_give": "For continued chest pain after nitroglycerin in patients with SBP >100 mmHg. Not used as first-line; reserved for pain that does not respond to nitrates.",
+        "page_numbers": [
+          47,
+          48
+        ]
+      },
+      {
+        "indication": "Pain Management (All Ages)",
+        "adult_dose": "25–100 mcg slow IV push/IM/IN/IO; consider half or reduced dose for patients >65 y/o; may repeat same dose for incomplete response after 10 min",
+        "peds_dose": "2 mcg/kg slow IV push/IM/IN/IO (Max: 50 mcg); IN is preferred first-line route for severe pain in <14 y/o; may repeat for incomplete response",
+        "route": "IV (slow push), IM, IN, IO",
+        "contraindications": [
+          "Signs or symptoms of circulatory shock",
+          "SBP <100 mmHg",
+          "Signs of respiratory depression",
+          "Altered level of consciousness, mental status change, or suspected head injury"
+        ],
+        "when_to_give": "For moderate-to-severe acute pain not adequately controlled by acetaminophen alone. Titrated to pain relief; repeated if response is incomplete after 10 minutes.",
+        "page_numbers": [
+          80,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glucagon",
+    "name": "Glucagon",
+    "indications": [
+      {
+        "indication": "Diabetic Emergency",
+        "adult_dose": "1.0 mg IM/IN (for patients ≥5 y/o)",
+        "peds_dose": "0.5 mg IM/IN (for patients 1 month – 4 y/o)",
+        "route": "IM or IN",
+        "contraindications": [],
+        "when_to_give": "Alternative to IV dextrose when IV/IO access is unavailable in a hypoglycemic patient with AMS. Stimulates hepatic glycogenolysis to raise blood glucose.",
+        "page_numbers": [
+          54
+        ]
+      },
+      {
+        "indication": "Drug Overdose / Drug Intoxication",
+        "adult_dose": "1 mg IV/IO/IM",
+        "peds_dose": "0.5 mg IV/IO/IM",
+        "route": "IV/IO/IM",
+        "contraindications": [],
+        "when_to_give": "For beta blocker overdose with hemodynamic instability. Glucagon bypasses the blocked beta receptor to increase heart rate and contractility.",
+        "page_numbers": [
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glucose_gel_oral",
+    "name": "Glucose Gel (Oral)",
+    "indications": [
+      {
+        "indication": "Diabetic Emergency",
+        "adult_dose": "1 tube (15 g) PO",
+        "peds_dose": "¼–½ tube PO",
+        "route": "PO",
+        "contraindications": [
+          "Patient unable to protect airway or actively vomiting"
+        ],
+        "when_to_give": "For alert, conscious hypoglycemic patients who are able to swallow and protect their airway. Applied inside the cheek if patient cannot swallow but is alert.",
+        "page_numbers": [
+          54
+        ]
+      },
+      {
+        "indication": "Newborn Care",
+        "adult_dose": "N/A",
+        "peds_dose": "5 mL applied inside cheek (massaged in)",
+        "route": "PO/buccal",
+        "contraindications": [
+          "Do NOT delay or compromise airway placement or ventilation"
+        ],
+        "when_to_give": "For newborn with POC glucose <50 g/dL AND IV/IO access cannot be established. Applied as a temporizing measure only — does not replace IV dextrose.",
+        "page_numbers": [
+          70,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipratropium",
+    "name": "Ipratropium",
+    "indications": [
+      {
+        "indication": "Allergic Reaction (Non-Anaphylaxis)",
+        "adult_dose": "0.5 mg combined with Albuterol 2.5 mg, Nebulized; may repeat twice as needed",
+        "peds_dose": "0.5 mg combined with Albuterol 2.5 mg, Nebulized; may repeat twice as needed",
+        "route": "Nebulized (combined unit-dose with Albuterol)",
+        "contraindications": [],
+        "when_to_give": "Add-on to Albuterol for allergic reactions WITHOUT anaphylactic features (no hypotension, no severe signs, not ≥2 body systems) when wheezing/dyspnea is present. Given as combined unit dose with Albuterol 2.5 mg. Not used for anaphylaxis.",
+        "page_numbers": [
+          30
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Adult and Pediatric",
+        "adult_dose": "Added to Albuterol 5 mg, Nebulized; no separate listed dose",
+        "peds_dose": "Added to Albuterol 5 mg, Nebulized; no separate listed dose",
+        "route": "Nebulized (alongside Albuterol)",
+        "contraindications": [],
+        "when_to_give": "Optional add-on to Albuterol for additional bronchodilation in asthma/COPD or reactive airway disease. No specific clinical threshold defined — per provider discretion.",
+        "page_numbers": [
+          84,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "indication": "Toxic Chemical Exposure (Respiratory Irritants)",
+        "adult_dose": "Combined with Albuterol 5 mg, Nebulized",
+        "peds_dose": "Combined with Albuterol 5 mg, Nebulized",
+        "route": "Nebulized",
+        "contraindications": [],
+        "when_to_give": "Optional add-on to Albuterol for bronchospasm from respiratory irritant chemical exposure.",
+        "page_numbers": [
+          108,
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lidocaine",
+    "name": "Lidocaine",
+    "indications": [
+      {
+        "indication": "IO Access Procedure",
+        "adult_dose": "40 mg; infuse over 30 sec, dwell 30 sec before flushing/use",
+        "peds_dose": "0.5 mg/kg (Max: 40 mg); infuse over 30 sec, dwell 30 sec",
+        "route": "IO only (intraosseous infusion)",
+        "contraindications": [],
+        "when_to_give": "OPTIONAL — for conscious patients receiving an IO, when time permits. Given after the initial saline flush that clears the needle, before medication delivery.",
+        "page_numbers": [
+          65,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "id": "magnesium_sulfate",
+    "name": "Magnesium Sulfate",
+    "indications": [
+      {
+        "indication": "OB/GYN – Pregnancy Complications (Pre-Eclampsia / Eclampsia)",
+        "adult_dose": "5 g in 100–250 mL isotonic fluid IV/IO over 15 min for all suspected pre-eclampsia; if still seizing at 15 min, ADDITIONAL 3 g in 100–250 mL isotonic fluid IV/IO",
+        "peds_dose": "N/A (protocol applies to pregnant patients only)",
+        "route": "IV/IO (infusion in isotonic fluid over 15 min)",
+        "contraindications": [],
+        "when_to_give": "For suspected pre-eclampsia (SBP >160 mmHg, DBP >110 mmHg, and/or symptomatic) and for seizures of eclampsia. Given to all suspected cases regardless of seizure activity; additional dose for refractory seizures.",
+        "page_numbers": [
+          78,
+          79
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Adult (Severe Asthma/COPD)",
+        "adult_dose": "2 g in 100–250 mL isotonic fluid IV/IO over 15 min",
+        "peds_dose": "N/A — see Respiratory Distress (Pediatric)",
+        "route": "IV/IO (infusion)",
+        "contraindications": [],
+        "when_to_give": "For severe or worsening asthma/COPD after bronchodilators and NIPPV have been initiated. Provides bronchodilation through smooth muscle relaxation.",
+        "page_numbers": [
+          84,
+          85
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Pediatric (Severe Asthma)",
+        "adult_dose": "N/A — see Respiratory Distress (Adult)",
+        "peds_dose": "40 mg/kg in 100–250 mL isotonic fluid IV/IO over 15 min (Max: 2 g)",
+        "route": "IV/IO (infusion)",
+        "contraindications": [],
+        "when_to_give": "For severe or worsening pediatric asthma after bronchodilators have been given. Dose is 2 mL/kg if diluted in 100 mL, or 5 mL/kg if diluted in 250 mL, to achieve 40 mg/kg.",
+        "page_numbers": [
+          86,
+          87
+        ]
+      },
+      {
+        "indication": "Tachycardia – Unstable (Adult) — Torsades de Pointes",
+        "adult_dose": "2 g IV/IO over 10 min",
+        "peds_dose": "N/A — see Tachycardia – Unstable (Pediatric)",
+        "route": "IV/IO (infusion over 10 min)",
+        "contraindications": [],
+        "when_to_give": "For unstable wide-complex tachycardia confirmed as Torsades de Pointes (polymorphic VT with oscillating QRS amplitude). Given alongside synchronized cardioversion.",
+        "page_numbers": [
+          101,
+          102
+        ]
+      },
+      {
+        "indication": "Tachycardia – Unstable (Pediatric) — Torsades de Pointes",
+        "adult_dose": "N/A",
+        "peds_dose": "40 mg/kg IV/IO over 10 min (Max: 2 g)",
+        "route": "IV/IO (infusion over 10 min)",
+        "contraindications": [],
+        "when_to_give": "For pediatric unstable Torsades de Pointes. Given alongside synchronized cardioversion.",
+        "page_numbers": [
+          103,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "id": "midazolam",
+    "name": "Midazolam",
+    "indications": [
+      {
+        "indication": "Behavioral Emergency / Acute Behavioral Disturbance",
+        "adult_dose": "5 mg IM or IV (if previously established); may repeat ONCE",
+        "peds_dose": "0.1 mg/kg IM/IN or IV (Max: 5 mg); may repeat ONCE",
+        "route": "IM (preferred for rapid delivery), IN, or IV",
+        "contraindications": [],
+        "when_to_give": "First-line chemical restraint for acute behavioral disturbance when patient is a danger to themselves or others. May be repeated once if initial dose is insufficient.",
+        "page_numbers": [
+          32,
+          33
+        ]
+      },
+      {
+        "indication": "Chest Pain (Stimulant-Related)",
+        "adult_dose": "2.5 mg IV/IM/IN; may repeat after 5–10 min",
+        "peds_dose": "Not specified in Chest Pain CPG",
+        "route": "IV, IM, or IN",
+        "contraindications": [],
+        "when_to_give": "For cocaine- or methamphetamine-related chest pain where sympathetic hyperactivation is the underlying mechanism. Benzodiazepine sedation reduces catecholamine-driven demand on the heart.",
+        "page_numbers": [
+          47,
+          48
+        ]
+      },
+      {
+        "indication": "Heat Emergency / Heat Stroke",
+        "adult_dose": "2.5 mg IV/IO OR 5 mg IN",
+        "peds_dose": "0.05 mg/kg IV/IO (Max: 2.5 mg) OR 0.1 mg/kg IM/IN (Max: 5 mg)",
+        "route": "IV/IO or IN (adult); IV/IO, IM, or IN (peds)",
+        "contraindications": [],
+        "when_to_give": "For excessive shivering during active cooling in heat stroke. Shivering generates heat and counteracts cooling efforts; midazolam is used to suppress it.",
+        "page_numbers": [
+          60
+        ]
+      },
+      {
+        "indication": "OB/GYN – Pregnancy Complications (Eclamptic Seizures)",
+        "adult_dose": "10 mg IM or 5 mg IV/IO for active seizure; repeat same dose if still seizing after 5–10 min",
+        "peds_dose": "N/A",
+        "route": "IM or IV/IO",
+        "contraindications": [],
+        "when_to_give": "For management of active seizures in eclampsia. Higher initial IM dose (10 mg) allows rapid delivery without IV access. Magnesium sulfate should also be given simultaneously for all pre-eclampsia/eclampsia cases.",
+        "page_numbers": [
+          78,
+          79
+        ]
+      },
+      {
+        "indication": "Sedation Procedure",
+        "adult_dose": "2.5 mg IV/IO OR 5 mg IN/IM; may repeat ONCE after 5–10 min",
+        "peds_dose": "0.1 mg/kg IV/IO/IN/IM (Max: 5 mg); may repeat ONCE",
+        "route": "IV/IO, IN, or IM",
+        "contraindications": [
+          "Hemodynamically unstable patients — do not delay cardioversion or pacing for sedation",
+          "Apneic or unresponsive patients do not require sedation",
+          "Patients with respiratory distress from a concurrent condition"
+        ],
+        "when_to_give": "For procedural sedation prior to transcutaneous pacing or direct current cardioversion. Also for managing post-ROSC agitation. Select midazolam OR ketamine — do not combine.",
+        "page_numbers": [
+          88
+        ]
+      },
+      {
+        "indication": "Seizure (All Ages)",
+        "adult_dose": "10 mg IM OR 5 mg IV/IO",
+        "peds_dose": "0.2 mg/kg IN/IM OR 0.1 mg/kg IV/IO (Max: 1 mg)",
+        "route": "IM or IN (preferred — do NOT delay for IV/IO access); IV/IO also acceptable",
+        "contraindications": [
+          "If signs of pregnancy, refer to OB/GYN – Pregnancy Complications CPG for eclampsia management (magnesium sulfate becomes primary)"
+        ],
+        "when_to_give": "For any actively seizing patient. IM/IN route preferred to avoid delay. May repeat ONCE with same age-based dose if still seizing after 5 min. If still seizing after second dose, contact BioTel medical control.",
+        "page_numbers": [
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naloxone",
+    "name": "Naloxone",
+    "indications": [
+      {
+        "indication": "Altered Mental Status — Opioid Subsection",
+        "adult_dose": "0.4–0.5 mg IV/IO OR 2 mg IN; may repeat after 3 min",
+        "peds_dose": "0.1 mg/kg IV/IO/IM/IN (Max: 0.5 mg IV/IO/IM or 2 mg IN); may repeat after 3 min",
+        "route": "IV/IO, IM, or IN",
+        "contraindications": [],
+        "when_to_give": "For respiratory depression (not just altered mental status alone) in a patient with suspected opioid toxicity. Titrate to adequate respiratory effort, not to full awakening.",
+        "page_numbers": [
+          31,
+          55
+        ]
+      },
+      {
+        "indication": "Drug Overdose / Drug Intoxication",
+        "adult_dose": "0.4–0.5 mg IV/IO/IM OR 2 mg IN; repeat every 3 min for incomplete response",
+        "peds_dose": "0.1 mg/kg IV/IO/IM/IN (Max: 0.4 mg IV/IO/IM or 2 mg IN); repeat every 3 min",
+        "route": "IV/IO/IM/IN",
+        "contraindications": [],
+        "when_to_give": "For opioid-induced respiratory depression or apnea from overdose. Goal is restoration of adequate ventilation. Repeated as needed given opioid's duration may exceed naloxone's.",
+        "page_numbers": [
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nitroglycerin",
+    "name": "Nitroglycerin",
+    "indications": [
+      {
+        "indication": "Chest Pain",
+        "adult_dose": "0.4 mg SL; may repeat every 3–5 min (up to 3 doses) if SBP >100 mmHg and HR >50 bpm",
+        "peds_dose": "Not listed (Chest Pain CPG is ≥14 y/o)",
+        "route": "Sublingual (SL)",
+        "contraindications": [
+          "SBP <100 mmHg",
+          "HR <50 bpm",
+          "Use of PDE5 inhibitor within 48 hours (sildenafil/Viagra, vardenafil/Levitra, tadalafil/Cialis)"
+        ],
+        "when_to_give": "Given to chest pain patients after aspirin, if SBP is adequate and HR is above 50. Used for ischemic chest pain and CHF with adequate BP. Repeat up to 3 doses if pain persists and BP/HR remain within limits.",
+        "page_numbers": [
+          47,
+          48
+        ]
+      },
+      {
+        "indication": "Respiratory Distress – Adult (CHF/Pulmonary Edema)",
+        "adult_dose": "0.4 mg SL; every 5 min, up to 3 doses if SBP ≥100 mmHg",
+        "peds_dose": "N/A",
+        "route": "Sublingual (SL)",
+        "contraindications": [
+          "SBP <100 mmHg",
+          "HR <50 bpm",
+          "PDE5 inhibitor use within 48 hr",
+          "Do NOT use if patient is in shock"
+        ],
+        "when_to_give": "For adult CHF/pulmonary edema with adequate SBP (≥100 mmHg) and mild-to-moderate respiratory distress. Reduces preload to relieve pulmonary congestion. Do not use if hypotensive.",
+        "page_numbers": [
+          84,
+          85
+        ]
+      }
+    ]
+  },
+  {
+    "id": "norepinephrine",
+    "name": "Norepinephrine",
+    "indications": [
+      {
+        "indication": "Cardiac Arrest – Post-ROSC Care",
+        "adult_dose": "Infusion: 4–10 mcg/min IV/IO; mix 2 mg NE in 250 mL NS (NOT LR) = 8 mcg/mL",
+        "peds_dose": "Infusion: 0.1 mcg/kg/min IV/IO (Max: 10 mcg/min); mix 2 mg NE in 250 mL NS = 8 mcg/mL",
+        "route": "IV/IO (continuous infusion)",
+        "contraindications": [
+          "Do NOT mix with Lactated Ringer's"
+        ],
+        "when_to_give": "For SBP <90 mmHg post-ROSC that does not respond to fluid resuscitation. Primary vasopressor for post-cardiac arrest hypotension.",
+        "page_numbers": [
+          44,
+          45
+        ]
+      },
+      {
+        "indication": "Shock / Hypotension – Adult",
+        "adult_dose": "4 mcg/min IV/IO infusion (Max: 10 mcg/min); titrate every 2–5 min to SBP ≥90 mmHg; mix 4 mg NE in 500 mL NS = 8 mcg/mL",
+        "peds_dose": "N/A — see Shock/Hypotension (Pediatric)",
+        "route": "IV/IO (continuous infusion); IV pump preferred if available",
+        "contraindications": [
+          "Do NOT mix with Lactated Ringer's"
+        ],
+        "when_to_give": "For cardiogenic or general medical shock not responding to isotonic fluid resuscitation. Titrated upward every 2–5 min until hypotension resolves.",
+        "page_numbers": [
+          91,
+          92
+        ]
+      },
+      {
+        "indication": "Shock / Hypotension – Pediatric",
+        "adult_dose": "N/A — see Shock/Hypotension (Adult)",
+        "peds_dose": "0.1 mcg/kg/min IV/IO infusion (Max: 10 mcg/min); titrate every 2–5 min; mix 4 mg NE in 500 mL NS = 8 mcg/mL",
+        "route": "IV/IO (continuous infusion)",
+        "contraindications": [
+          "Do NOT mix with Lactated Ringer's",
+          "Contact BioTel medical control if insufficient response"
+        ],
+        "when_to_give": "For pediatric shock not responding to fluid resuscitation. Second-line after fluids; push dose epinephrine may be used first as a bridge.",
+        "page_numbers": [
+          93,
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ondansetron",
+    "name": "Ondansetron",
+    "indications": [
+      {
+        "indication": "Nausea and Vomiting",
+        "adult_dose": "4–8 mg PO/IV/IM",
+        "peds_dose": "Not approved",
+        "route": "PO (ODT), IV, IM, or IO",
+        "contraindications": [
+          "QTc >500 ms on ECG",
+          "Not for patients <2 y/o"
+        ],
+        "when_to_give": "For nausea and vomiting in patients ≥2 y/o, especially when vomiting is impairing patient care, assessment, or medication administration. Screen ECG when available.",
+        "page_numbers": [
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sodium_bicarbonate",
+    "name": "Sodium Bicarbonate",
+    "indications": [
+      {
+        "indication": "Behavioral Emergency / Cardiac Arrest (Acidosis Consideration)",
+        "adult_dose": "1 mEq/kg IV/IO (Max: 50 mEq)",
+        "peds_dose": "1 mEq/kg IV/IO (Max: 50 mEq)",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "In the event of sudden cardiac arrest in a behavioral emergency patient, acidosis is considered a likely contributing cause. Sodium bicarbonate is given to buffer metabolic acidosis.",
+        "page_numbers": [
+          32,
+          33
+        ]
+      },
+      {
+        "indication": "Drug Overdose / Drug Intoxication (Tricyclic Antidepressant Overdose)",
+        "adult_dose": "1 mEq/kg IV/IO (Max: 50 mEq)",
+        "peds_dose": "1 mEq/kg IV/IO (Max: 50 mEq)",
+        "route": "IV/IO",
+        "contraindications": [],
+        "when_to_give": "For widened QRS complex from tricyclic antidepressant (TCA) overdose. Sodium bicarbonate alkalinizes the blood and reverses sodium channel blockade, narrowing the QRS and reducing arrhythmia risk.",
+        "page_numbers": [
+          55
+        ]
+      }
+    ]
+  }
+]
