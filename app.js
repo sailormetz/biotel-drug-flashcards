@@ -13,10 +13,21 @@ async function loadDrugs() {
   const cards = [];
   for (const drug of drugs) {
     for (const ind of drug.indications) {
-      cards.push({ drug: drug.name, ...ind });
+      cards.push({ type: 'drug', drug: drug.name, ...ind });
     }
   }
   return cards;
+}
+
+async function loadGeneral() {
+  const res = await fetch('data/general.json');
+  const cards = await res.json();
+  return cards;
+}
+
+async function loadAllCards() {
+  const [drugCards, generalCards] = await Promise.all([loadDrugs(), loadGeneral()]);
+  return [...drugCards, ...generalCards];
 }
 
 function shuffle(arr) {
@@ -34,14 +45,20 @@ function escapeHtml(s) {
   }[c]));
 }
 
-function renderFront(c) {
+function nlToBr(s) {
+  return escapeHtml(s).replace(/\n/g, '<br>');
+}
+
+// --- Drug card rendering ---
+
+function renderDrugFront(c) {
   $('front').innerHTML = `
     <h1 class="drug-name">${escapeHtml(c.drug)}</h1>
     <div class="indication-front">${escapeHtml(c.indication)}</div>
   `;
 }
 
-function renderBack(c) {
+function renderDrugBack(c) {
   const contra = c.contraindications && c.contraindications.length
     ? `<div class="field contra">
          <div class="field-label" style="color: var(--danger); margin-bottom: 2px;">Contraindications</div>
@@ -83,6 +100,37 @@ function renderBack(c) {
   `;
 }
 
+// --- General card rendering ---
+
+function renderGeneralFront(c) {
+  $('front').innerHTML = `
+    <h1 class="drug-name">${nlToBr(c.front)}</h1>
+  `;
+}
+
+function renderGeneralBack(c) {
+  const page = c.page ? `<div class="pages">p. ${c.page}</div>` : '';
+
+  $('back').innerHTML = `
+    <div class="field">
+      <div class="field-value" style="font-size: 1.1rem; line-height: 1.6;">${nlToBr(c.back)}</div>
+    </div>
+    ${page}
+  `;
+}
+
+// --- Unified rendering ---
+
+function renderFront(c) {
+  if (c.type === 'general') renderGeneralFront(c);
+  else renderDrugFront(c);
+}
+
+function renderBack(c) {
+  if (c.type === 'general') renderGeneralBack(c);
+  else renderDrugBack(c);
+}
+
 function render() {
   const c = state.cards[state.order[state.idx]];
   renderFront(c);
@@ -100,7 +148,6 @@ function flip() {
 function go(delta) {
   state.idx = (state.idx + delta + state.order.length) % state.order.length;
   state.flipped = false;
-  // Reset scroll on both faces so next card starts at top
   $('front').scrollTop = 0;
   $('back').scrollTop = 0;
   render();
@@ -131,7 +178,7 @@ function attachSwipe(el) {
 }
 
 async function init() {
-  state.cards = await loadDrugs();
+  state.cards = await loadAllCards();
   state.order = state.cards.map((_, i) => i);
 
   $('card').addEventListener('click', flip);

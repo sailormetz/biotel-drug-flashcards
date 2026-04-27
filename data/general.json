@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gcs_eye_opening",
+    "type": "general",
+    "front": "What are the GCS Eye Opening scores?",
+    "back": "4 = Spontaneous\n3 = To voice\n2 = To pain\n1 = None",
+    "page": 15
+  },
+  {
+    "id": "gcs_verbal_response",
+    "type": "general",
+    "front": "What are the GCS Verbal Response scores?",
+    "back": "5 = Oriented\n4 = Confused\n3 = Inappropriate words\n2 = Incomprehensible sounds\n1 = None",
+    "page": 15
+  },
+  {
+    "id": "gcs_motor_response",
+    "type": "general",
+    "front": "What are the GCS Motor Response scores?",
+    "back": "6 = Obeys commands\n5 = Localizes pain\n4 = Withdrawal (flexion)\n3 = Abnormal flexion (decorticate)\n2 = Extension (decerebrate)\n1 = None",
+    "page": 15
+  }
+]
