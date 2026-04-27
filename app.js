@@ -3,6 +3,7 @@ const state = {
   order: [],
   idx: 0,
   flipped: false,
+  filter: 'all',
 };
 
 const $ = (id) => document.getElementById(id);
@@ -177,6 +178,26 @@ function attachSwipe(el) {
   }, { passive: true });
 }
 
+function applyFilter(filter) {
+  state.filter = filter;
+  if (filter === 'all') {
+    state.order = state.cards.map((_, i) => i);
+  } else {
+    state.order = state.cards
+      .map((c, i) => ({ c, i }))
+      .filter(({ c }) => c.type === filter)
+      .map(({ i }) => i);
+  }
+  state.idx = 0;
+  state.flipped = false;
+
+  document.querySelectorAll('.tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.filter === filter);
+  });
+
+  render();
+}
+
 async function init() {
   state.cards = await loadAllCards();
   state.order = state.cards.map((_, i) => i);
@@ -189,6 +210,10 @@ async function init() {
   $('prev').addEventListener('click', () => go(-1));
   $('next').addEventListener('click', () => go(1));
   $('shuffle').addEventListener('click', doShuffle);
+
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => applyFilter(tab.dataset.filter));
+  });
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowRight') go(1);
