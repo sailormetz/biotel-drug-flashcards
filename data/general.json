@@ -33,5 +33,12 @@
     "front": "What are the 3 components of the CPSS primary stroke screen?",
     "back": "1. Facial droop or asymmetric facial movement?\n2. Arm drift with both arms straight out, palms up?\n3. Slurred words, incorrect words, or unable to talk?\n\nPositive = YES to 1 or more questions",
     "page": 97
+  },
+  {
+    "id": "hs_and_ts_cardiac_arrest",
+    "type": "general",
+    "front": "What are the H's and T's (reversible causes of cardiac arrest)?",
+    "back": "H's:\n• Hypoxia\n• Hypovolemia — NS 20 mL/kg IV/IO (Max 1000 mL)\n• Hyperkalemia — Calcium chloride 1 mg IV/IO\n• Hypothermia — prevent heat loss\n\nT's:\n• Tension Pneumothorax — needle thoracostomy\n• Toxicity — refer to Drug Overdose/Intoxication CPG",
+    "page": 41
   }
 ]
