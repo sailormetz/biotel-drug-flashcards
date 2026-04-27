@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0f172a">
 <title>BioTel Drug Flashcards</title>
-<link rel="stylesheet" href="styles.css">
+<script>
+  const v = Date.now();
+  document.write('<link rel="stylesheet" href="styles.css?v=' + v + '">');
+</script>
 </head>
 <body>
 <header class="topbar">
@@ -34,6 +37,10 @@
   <button class="btn icon" id="shuffle" aria-label="Shuffle">&#x1F500;</button>
 </nav>
 
-<script src="app.js"></script>
+<script>
+  const s = document.createElement('script');
+  s.src = 'app.js?v=' + Date.now();
+  document.body.appendChild(s);
+</script>
 </body>
 </html>
