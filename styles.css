@@ -145,6 +145,13 @@ body {
   letter-spacing: -0.02em;
 }
 
+.general-front {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  max-width: 32ch;
+}
+
 .indication-front {
   font-size: clamp(15px, 3.5vw, 18px);
   color: var(--accent);

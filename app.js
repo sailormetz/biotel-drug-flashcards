@@ -105,7 +105,7 @@ function renderDrugBack(c) {
 
 function renderGeneralFront(c) {
   $('front').innerHTML = `
-    <h1 class="drug-name">${nlToBr(c.front)}</h1>
+    <div class="general-front">${nlToBr(c.front)}</div>
   `;
 }
 
