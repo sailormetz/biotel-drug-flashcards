@@ -19,5 +19,12 @@
     "front": "What are the GCS Motor Response scores?",
     "back": "6 = Obeys commands\n5 = Localizes pain\n4 = Withdrawal (flexion)\n3 = Abnormal flexion (decorticate)\n2 = Extension (decerebrate)\n1 = None",
     "page": 15
+  },
+  {
+    "id": "cstat_secondary_stroke_screen",
+    "type": "general",
+    "front": "What are the 3 components of the C-STAT secondary stroke screen?",
+    "back": "1. Normal left & right eye movement?\n   If NO: +2 points\n\n2. Knows age & current month?\n   AND follows 2 simple commands (close eyes, open/close hand)?\n   If NO to BOTH: +1 point\n\n3. Hold arms out (palms up) 10 sec without falling?\n   If NO: +1 point\n\nScore of 2 or more = C-STAT positive",
+    "page": 97
   }
 ]
